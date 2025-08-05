@@ -1,0 +1,8 @@
+1. c:\에서 yarn 폴더 생성
+2. vscode에서 yarn 폴더 오픈
+3. npm install -g yarn
+4. yarn -v
+5. npm install -g create-react-app 
+6. create-react-app "프로젝트 명"
+7. cd "프로젝트 명"
+8. yarn start
