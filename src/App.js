@@ -1,4 +1,10 @@
 import Comp from './comp/Comp';
+import 'bootstrap/dist/css/bootstrap.min.css';
+//app.js에 cdn 선언
+import Es6 from './comp/Es6'
+//import JQuery from 'JQuery';
+import Sweet from './comp/Sweet';
+import Fetch from './comp/Fetch';
 //객체지향 언어는 불필요한 코드에 반복을 줄이고 언제든 재활용하세요.
 // Don't repeat your self
 //생명주기 컴포넌트의 생성, 변경, 소멸 과정을 뜻한다..
@@ -7,10 +13,14 @@ import Comp from './comp/Comp';
 function App() {
   return (
    <>
-   <h1>리액트 시작하기</h1>
-   <p>sass 적용
-   <Comp/>
-   </p>
+    <h1>리액트 시작하기</h1>
+    <p>sass 적용</p>
+      {/*<Comp/>*/}
+      {/*<Es6/>*/}
+      {/*<JQuery/>*/}
+      {/*<Sweet/>*/}
+      <Fetch/>
+    
    </>
   );
 }
